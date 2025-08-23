@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quma Al Majra</title>
+  <style>
+    /* === COLORS (from logo) === */
+    :root {
+      --primary: #628894; /* bluish gray */
+      --dark: #000000;
+      --light: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--dark);
+      color: var(--light);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    nav a {
+      color: var(--light);
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: var(--primary);
+    }
+
+    .hero {
+      background: var(--primary);
+      color: var(--light);
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact a {
+      display: inline-block;
+      background: var(--primary);
+      color: var(--light);
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .contact a:hover {
+      background: var(--dark);
+    }
+
+    footer {
+      background: var(--dark);
+      color: var(--light);
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="LOGO.png" alt="Quma Al Majra Logo" />
+    <nav>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <h1>Quma Al Majra</h1>
+    <p>Cooling & Refrigeration Wholesale</p>
+  </div>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      At <strong>Quma Al Majra</strong>, we specialize in high-quality cooling and refrigeration wholesale solutions. 
+      Our mission is to provide reliable products and services that keep businesses running efficiently, 
+      ensuring the best in cooling technology and customer satisfaction.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Have a question or want to work with us?</p>
+    <a href="mailto:info@quma-almajra.com">📧 Email Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Quma Al Majra. All rights reserved.</p>
+  </footer>
+</body>
+</html>
